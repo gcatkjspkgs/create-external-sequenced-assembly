@@ -7,7 +7,7 @@
 ```js
 // Example of Ext Sequence Recipe using JSON-based and KJS builtin/Functions
 onEvent('recipes', (event) => {
-    addExtSequenceRecipe(['minecraft:diamond'], 'minecraft:gravel',
+    global.addExtSequenceRecipe(['minecraft:diamond'], 'minecraft:gravel',
         [
             // Adds a standard Sequenced Assembly Pressing step.
             {
@@ -113,7 +113,7 @@ onEvent('recipes', (event) => {
 ```js
 // Example using recipetype that supports full output Arrays as final step.
 onEvent('recipes', (event => {
-    addExtSequenceRecipe(['minecraft:dirt', 'minecraft:grass'], 'minecraft:grass_block',
+    global.addExtSequenceRecipe(['minecraft:dirt', 'minecraft:grass'], 'minecraft:grass_block',
         [
             {
                 'type': 'press'
