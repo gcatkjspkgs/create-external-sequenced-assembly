@@ -1,0 +1,9 @@
+{
+    "author": "Emperdog",
+    "description": "A script that allows you to add steps to the sequenced assembly using any recipe type that KJS can use. Docs: https://github.com/gcatkjspkgs/create-external-sequenced-assembly/blob/main/README.md",
+    
+    "versions": [8],
+    "modloaders": ["forge", "fabric"],
+    "dependencies": [],
+    "incompatibilities": []
+}
