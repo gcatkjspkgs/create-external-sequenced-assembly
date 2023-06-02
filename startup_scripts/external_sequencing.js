@@ -163,7 +163,6 @@ const addExtSequenceRecipe = (outputs, base, sequence, seqLoops, transitional, i
 onEvent("loaded", e => {
     if(!createLoaded){
         console.log('Create not found! only External Sequencing is available without Create!');
-        return
     }
 
     global.sequenceRecipeIDsToHide = [];
