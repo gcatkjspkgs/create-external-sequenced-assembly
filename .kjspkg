@@ -4,6 +4,6 @@
     
     "versions": [8],
     "modloaders": ["forge", "fabric"],
-    "dependencies": [],
+    "dependencies": ["mod:create"],
     "incompatibilities": []
 }
